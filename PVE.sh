@@ -97,7 +97,7 @@ declare -A config_templates=(
         cpu = host
         cores = 1
         memory = 1536
-        boot_disk0 = https://disk.yandex.ru/d/31yfM0_qNhTTkw/Alt-Server_10.1.qcow2
+        boot_disk0 = https://disk.yandex.ru/d/LE4-xYTyAr12Ug/Alt-Server_10.1.qcow2
         access_roles = Competitor
     '
     [_Alt-Workstation_10.1]='Базовый шаблон для Alt-Workstation 10.1'
@@ -110,7 +110,7 @@ declare -A config_templates=(
         cpu = host
         cores = 2
         memory = 2048
-        boot_disk0 = https://disk.yandex.ru/d/31yfM0_qNhTTkw/Alt-Workstation_10.1.qcow2
+        boot_disk0 = https://disk.yandex.ru/d/LE4-xYTyAr12Ug/Alt-Workstation_10.1.qcow2
         access_roles = Competitor
     '
     [_Eltex-vESR]='Базовый шаблон для vESR'
@@ -125,7 +125,7 @@ declare -A config_templates=(
         cores = 4
         memory = 3072
         netifs_type = e1000
-        boot_disk0 = https://disk.yandex.ru/d/31yfM0_qNhTTkw/vESR.qcow2
+        boot_disk0 = https://disk.yandex.ru/d/LE4-xYTyAr12Ug/vESR.qcow2
         access_roles = Competitor
     '
     [_EcoRouter]='Базовый шаблон для EcoRouter'
@@ -143,7 +143,7 @@ declare -A config_templates=(
         disk_type = ide
         netifs_type = e1000
         network0 = { bridge="mgmt_net{0}", state=down }
-        boot_disk0 = https://disk.yandex.ru/d/31yfM0_qNhTTkw/EcoRouter.qcow2
+        boot_disk0 = https://disk.yandex.ru/d/LE4-xYTyAr12Ug/EcoRouter.qcow2
         access_roles = Competitor
     '
 )
